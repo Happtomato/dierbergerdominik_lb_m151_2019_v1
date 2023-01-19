@@ -1,0 +1,30 @@
+{
+  "name": "dierbergerdominik_lb_m151_2019_v1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "autoprefixer": "^9.8.8",
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^7.1.2",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  }
+}
